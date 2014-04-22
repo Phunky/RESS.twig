@@ -32,3 +32,31 @@
   display: table;
   clear: both;
 }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_button\.scss}line{font-family:\000031}}
+.button {
+  display: inline-block;
+  margin: 0;
+  padding: .5em 1em;
+  text-decoration: none;
+  cursor: pointer;
+  border: 0;
+  background: none;
+  text-align: center;
+  border-radius: .5em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_button\.scss}line{font-family:\0000312}}
+.button--success {
+  background-color: green;
+  color: white;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_button\.scss}line{font-family:\0000317}}
+.button--info {
+  background-color: yellow;
+  color: black;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_button\.scss}line{font-family:\0000322}}
+.button--error {
+  background-color: red;
+  color: white;
+}
