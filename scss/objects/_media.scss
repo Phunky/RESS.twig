@@ -1,0 +1,30 @@
+/**
+* @name         Media block
+* @desc         Media block - image on left/right, text next to it.
+* @author
+* @tested
+* @requires
+*/
+
+.media {
+  @include pie-clearfix;
+  & > &-left, & > &-right {
+    img {
+      display: block
+    }
+  }
+
+  & > &-left {
+    float: left;
+    margin-right: 10px
+  }
+
+  & > &-right {
+    float: right;
+    margin-left: 10px
+  }
+
+  & > &-body {
+    @include pie-clearfix;
+  }
+}

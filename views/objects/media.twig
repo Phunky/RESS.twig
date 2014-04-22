@@ -1,0 +1,15 @@
+<div class="media">
+  {% if block('left') %}
+    <div class="media-left">
+      {{ block('left') }}
+    </div>
+  {% endif %}
+  {% if block('right') %}
+    <div class="media-right">
+      {{ block('right') }}
+    </div>
+  {% endif %}
+  <div class="media-body">
+    {{ block('body') }}
+  </div>
+</div>

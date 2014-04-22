@@ -1,0 +1,41 @@
+/**
+* @name         Media block
+* @desc         Media block - image on left/right, text next to it.
+* @author
+* @tested
+* @requires
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\000039}}
+.media {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/Cellar\/ruby\/2\.1\.1_1\/lib\/ruby\/gems\/2\.1\.0\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.media:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000312}}
+.media > .media-left img, .media > .media-right img {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000317}}
+.media > .media-left {
+  float: left;
+  margin-right: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000322}}
+.media > .media-right {
+  float: right;
+  margin-left: 10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000327}}
+.media > .media-body {
+  *zoom: 1;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/Cellar\/ruby\/2\.1\.1_1\/lib\/ruby\/gems\/2\.1\.0\/gems\/compass-core-1\.0\.0\.alpha\.19\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+.media > .media-body:after {
+  content: "";
+  display: table;
+  clear: both;
+}

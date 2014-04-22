@@ -1,0 +1,55 @@
+{% spaceless %}
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>RESS.dev</title>
+    <link rel="stylesheet" href="/css/stylesheet.css">
+  </head>
+  <body>
+    {% embed 'objects/media.twig' %}
+      {% block left %}
+        <a href="#">
+          <img src="http://placehold.it/350x150" width="350" height="150" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+        </a>
+      {% endblock %}
+      {% block body %}
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+      {% endblock %}
+    {% endembed %}
+
+    {% embed 'objects/media.twig' %}
+      {% block left %}
+        <a href="#">
+          <img src="http://placehold.it/350x150" width="350" height="150" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+        </a>
+      {% endblock %}
+      {% block right %}
+        <a href="#">
+          <img src="http://placehold.it/350x150" width="350" height="150" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+        </a>
+      {% endblock %}
+      {% block body %}
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+      {% endblock %}
+    {% endembed %}
+
+    {% embed 'objects/media.twig' %}
+      {% block right %}
+        <a href="#">
+          <img src="http://placehold.it/350x150" width="350" height="150" alt="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
+        </a>
+      {% endblock %}
+      {% block body %}
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus soluta vitae libero quo alias tenetur tempore amet aspernatur! Sit minima autem voluptates quae repellat. Error qui quia vel doloremque voluptas.</p>
+      {% endblock %}
+    {% endembed %}
+  </body>
+  </html>
+{% endspaceless %}
