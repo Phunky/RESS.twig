@@ -1,11 +1,4 @@
-/**
-* @name         Media block
-* @desc         Media block - image on left/right, text next to it.
-* @author
-* @tested
-* @requires
-*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\000031}}
 .media {
   *zoom: 1;
 }
@@ -15,21 +8,21 @@
   display: table;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000312}}
-.media > .media-left img, .media > .media-right img {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\000036}}
+.media > .media-left > img, .media > .media-right > img {
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000311}}
 .media > .media-left {
   float: left;
   margin-right: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000316}}
 .media > .media-right {
   float: right;
   margin-left: 10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/phunky\/Sites\/ress\.dev\/scss\/objects\/_media\.scss}line{font-family:\0000321}}
 .media > .media-body {
   *zoom: 1;
 }
